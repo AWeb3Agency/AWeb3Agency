@@ -21,6 +21,10 @@ ol,ul {
     list-style: none
 }
 
+.highlight{
+    border-bottom: 3px solid #4bff2a;
+}
+
 a {
     text-decoration: none
 }
