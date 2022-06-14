@@ -841,7 +841,9 @@ input[type=checkbox]:checked+label .icon {
 }
 
 .video .cover img {
-    height: 100%
+    height: auto;
+    position: relative;
+    top: -5rem;
 }
 
 .video .cover.hidden {
@@ -1473,7 +1475,7 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
     height: 250px;
     margin-bottom: 10px;
     -webkit-box-shadow: 2px -2px 0 #4bff2a;
-    box-shadow: 2px -2px 0 #4bff2a
+    box-shadow: none
 }
 
 .about .main_text {

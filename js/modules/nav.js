@@ -64,14 +64,14 @@ export function drawNav() {
                     },
                     html: `
                     <div class="signup_popup-shapes">
-                        <img class="speaker" src="svg/speaker.svg" alt="Get Your Free Demo">
+                        <img class="speaker" src="svg/speaker.svg" alt="Let's talk!">
                         <div class="group">
-                            <img class="oval" src="svg/ovals-line_group.svg" alt="Get Your Free Demo">
-                            <img class="shape" src="svg/lineshape.svg" alt="Get Your Free Demo">
+                            <img class="oval" src="svg/ovals-line_group.svg" alt="Let's talk!">
+                            <img class="shape" src="svg/lineshape.svg" alt="Let's talk!">
                         </div>
                     </div>
                     <div class="signup_popup-header">
-                        <h3 class="title">Get Your Free Demo</h3>
+                        <h3 class="title">Let's talk!</h3>
                         <h5 class="subtitle">Sign Up to AW3A</h5>
                     </div>
                     <ul class="signup_popup-list d-flex flex-column flex-md-row justify-content-md-center">
