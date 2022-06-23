@@ -1739,10 +1739,6 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 }
 
 .features_media {
-    background: -webkit-gradient(linear,left bottom,left top,from(#4bff2a),to(#4bff2a)),url(../img/placeholder.jpg) center/cover no-repeat;
-    background: -o-linear-gradient(bottom,#4bff2a,#4bff2a),url(../img/placeholder.jpg) center/cover no-repeat;
-    background: linear-gradient(0deg,#4bff2a,#4bff2a),url(../img/placeholder.jpg) center/cover no-repeat;
-    background-blend-mode: darken,normal;
     height: 320px;
     margin-bottom: 10px
 }
