@@ -489,22 +489,31 @@
                                 By partnering with AW3A, you can rely on a team of great developers with real-world experience creating success stories.
                             </p>
                         </div>
-                        <form class="feedback_main-form form d-flex flex-column" action="form.php" method="post" data-type="feedback">
-                            <input class="field required" type="text" id="feedbackName" name="feedbackName" placeholder="Name" />
+                        <form class="feedback_main-form form d-flex flex-column" action="https://api.web3forms.com/submit" id='contact-form' method="POST" data-type="feedback">
+                            <input type="hidden" name="access_key" value="455470c2-e0cd-4956-92e6-a0b7d60fe834">
+                            <input class="field required" type="text" id="feedbackName" name="name" placeholder="Name" />
                             <input
                                 class="field required"
                                 type="text"
                                 data-type="email"
                                 id="feedbackEmail"
-                                name="feedbackEmail"
+                                name="email"
                                 placeholder="E-mail"
                             />
                             <textarea
                                 class="field required"
-                                name="feedbackMessage"
+                                name="message"
                                 id="feedbackMessage"
                                 placeholder="Type your message here…"
                             ></textarea>
+                            <div class="">
+                                <input type="checkbox" name="marketing" id="marketing" checked name="sendMarketing" />
+                                <label for="marketing">
+                                    <i class="icon-check icon"></i> send me free material by email 
+                                </label>
+                            </div>
+                            <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                            <br />
                             <button class="btn btn--neon" type="submit">Send</button>
                         </form>
                     </div>

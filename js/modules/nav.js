@@ -94,8 +94,8 @@ export function drawNav() {
                         <input class="field required" type="password" placeholder="Password">
                         <input class="field required" type="password"  placeholder="Confirm Password">
                         <div class="">
-                            <input type="checkbox" name="sendDemoCheck" id="sendDemoCheck" checked>
-                            <label for="sendDemoCheck">
+                            <input type="checkbox" name="marketing" id="marketing" checked>
+                            <label for="marketing">
                                 <i class="icon-check icon"></i>
                                 send me invite to the free demo by email
                             </label>

@@ -217,15 +217,15 @@
                         <ul class="services_content-numbers d-flex flex-column">
                             <li class="block">
                                 <h6 class="label">Advanced Solutions for Startups</h6>
-                                <span class="countNum h1" data-value="240" data-suffix="+">0</span>
+                                <span class="countNum h1" data-value="0" data-suffix="+">0</span>
                             </li>
                             <li class="block">
-                                <h6 class="label">Investors on-boarded on the platform</h6>
-                                <span class="countNum h1" data-value="1720">0</span>
+                                <h6 class="label">Users on-boarded on the platforms</h6>
+                                <span class="countNum h1" data-value="0">0</span>
                             </li>
                             <li class="block">
-                                <h6 class="label">Promotion cases and new products</h6>
-                                <span class="countNum h1" data-value="8100" data-suffix="+">0</span>
+                                <h6 class="label">New products released to the market</h6>
+                                <span class="countNum h1" data-value="0" data-suffix="+">0</span>
                             </li>
                         </ul>
                         <div class="services_content-video video">
@@ -247,42 +247,29 @@
                     </div>
                     <ul class="services_list">
                         <li class="wrapper" data-aos="fade-up">
-                            <a class="services_list-item d-flex flex-column" href="service.html">
-                                <i class="icon-chart-bar icon"></i>
-                                <span class="title h5">Data Analysis</span>
+                            <a class="services_list-item d-flex flex-column" href="#">
+                                <i class="icon-arrow-right icon"></i>
+                                <span class="title h5">Our mission</span>
                                 <p class="text">
-                                    Phasellus fringilla tuc dignissim diam. Duis nec tempus ligula. Curabitur vel pretium. Vestibulum metus
-                                    pur esta
+                                    To always be inquisitive, playful and creative with what’s next. Stay brave enough to build fast and smart enough to learn quick.
                                 </p>
                             </a>
                         </li>
                         <li class="wrapper" data-aos="fade-up" data-aos-delay="50">
-                            <a class="services_list-item d-flex flex-column" href="service.html">
-                                <i class="icon-cloud icon"></i>
-                                <span class="title h5">Optimization</span>
+                            <a class="services_list-item d-flex flex-column" href="#">
+                                <i class="icon-arrow-right icon"></i>
+                                <span class="title h5">Our attitude</span>
                                 <p class="text">
-                                    Phasellus fringilla dignissim diam. Duis nec tempus ligula. Curabitur vel pretium. Vestibulum metus pur
-                                    esta
+                                    We’re unapologetically passionate about our work and see every day as an opportunity to change the world.
                                 </p>
                             </a>
                         </li>
                         <li class="wrapper" data-aos="fade-up" data-aos-delay="100">
-                            <a class="services_list-item d-flex flex-column" href="service.html">
-                                <i class="icon-filesearch icon"></i>
-                                <span class="title h5">Content Track</span>
+                            <a class="services_list-item d-flex flex-column" href="#">
+                                <i class="icon-arrow-right icon"></i>
+                                <span class="title h5">Get involved</span>
                                 <p class="text">
-                                    Phasellus fringilla tuc dignissim diam. Duis nec tempus ligula. Curabitur vel pretium. Vestibulum metus
-                                    pur esta
-                                </p>
-                            </a>
-                        </li>
-                        <li class="wrapper" data-aos="fade-up" data-aos-delay="150">
-                            <a class="services_list-item d-flex flex-column" href="service.html">
-                                <i class="icon-protect icon"></i>
-                                <span class="title h5">Risk Manage</span>
-                                <p class="text">
-                                    Phasellus fringilla dignissim diam. Duis nec tempus ligula. Curabitur vel pretium. Vestibulum metus pur
-                                    esta
+                                    We’re always on the lookout for people to join the team so if you’re brave, collaborative, inquisitive and innovative, then give us a shout.
                                 </p>
                             </a>
                         </li>
@@ -290,6 +277,7 @@
                 </div>
             </div>
             <!-- services section end -->
+            
             <!-- feedback section start -->
             <section class="feedback section">
                 <div class="feedback_shapes">
@@ -313,22 +301,32 @@
                                 By partnering with AW3A, you can rely on a team of great developers with real-world experience creating success stories.
                             </p>
                         </div>
-                        <form class="feedback_main-form form d-flex flex-column" action="form.php" method="post" data-type="feedback">
-                            <input class="field required" type="text" id="feedbackName" name="feedbackName" placeholder="Name" />
+
+                        <form class="feedback_main-form form d-flex flex-column" action="https://api.web3forms.com/submit" id='contact-form' method="POST" data-type="feedback">
+                            <input type="hidden" name="access_key" value="455470c2-e0cd-4956-92e6-a0b7d60fe834">
+                            <input class="field required" type="text" id="feedbackName" name="name" placeholder="Name" />
                             <input
                                 class="field required"
                                 type="text"
                                 data-type="email"
                                 id="feedbackEmail"
-                                name="feedbackEmail"
+                                name="email"
                                 placeholder="E-mail"
                             />
                             <textarea
                                 class="field required"
-                                name="feedbackMessage"
+                                name="message"
                                 id="feedbackMessage"
                                 placeholder="Type your message here…"
                             ></textarea>
+                            <div class="">
+                                <input type="checkbox" name="marketing" id="marketing" checked name="sendMarketing" />
+                                <label for="marketing">
+                                    <i class="icon-check icon"></i> send me free material by email 
+                                </label>
+                            </div>
+                            <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                            <br />
                             <button class="btn btn--neon" type="submit">Send</button>
                         </form>
                     </div>
@@ -349,7 +347,7 @@
             </section>
             <!-- feedback section end -->
             <!--  recent post section start  -->
-            <section class="recent section">
+            <!-- <section class="recent section">
                 <div class="container">
                     <div class="recent_header d-flex justify-content-between align-items-start">
                         <span class="tw-height h4">
@@ -512,7 +510,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!--  recent post section end  -->
         </main>
         <!-- about page content end -->
