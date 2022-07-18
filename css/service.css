@@ -846,6 +846,10 @@ input[type=checkbox]:checked+label .icon {
     top: -5rem;
 }
 
+.video .cover img.noTop {
+    top: 0;
+}
+
 .video .cover.hidden {
     opacity: 0;
     visibility: hidden
