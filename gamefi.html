@@ -12,137 +12,11 @@
         <link rel="stylesheet preload" as="style" href="css/icomoon.css" />
         <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
         <link rel="stylesheet" href="css/service.css" />
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header class="header d-lg-flex align-items-center" data-page="gamefi" data-page-parent="gamefi">
-            <div class="container d-flex align-items-center flex-wrap flex-lg-nowrap">
-                <a class="logo header_logo d-inline-flex align-items-center" href="index.html">
-                    <span class="logo_icon">
-                        <img src="svg/logo.svg" alt="AW3A" />
-                    </span>
-                    <span class="logo_text h5">A<span class="brand-highlight">Web3</span>Agency</span>
-                </a>
-                <nav class="header_nav collapse" id="headerMenu">
-                    <ul class="header_nav-list">
-                        <li class="header_nav-list_item">
-                            <a class="nav-item nav-link" href="/" data-page="home" data-single="true">
-                                <span class="nav-item_text">Start</span>
-                            </a>
-                        </li>
-                        <li class="header_nav-list_item">
-                            <a class="nav-item nav-link" href="about.html" data-page="about" data-single="true">
-                                <span class="nav-item_text">About Us</span>
-                            </a>
-                        </li>
-                        <li class="header_nav-list_item dropdown">
-                            <a
-                                class="nav-link nav-item dropdown-toggle d-flex align-items-center justify-content-between"
-                                href="services.html"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#servicesMenu"
-                                data-trigger="dropdown"
-                                data-page-parent="services"
-                                data-main-link="true"
-                                aria-expanded="false"
-                                aria-controls="servicesMenu"
-                                data-page="services"
-                            >
-                                <span class="nav-item_text">
-                                    Services
-                                    <i class="icon-circle icon"></i>
-                                </span>
-                                <i class="icon-arrow-left icon arrow-rotate"></i>
-                            </a>
-                            <div class="dropdown-menu collapse" id="servicesMenu">
-                                <ul class="dropdown-list">
-                                    <li class="list-item" data-main="true">
-                                        <a
-                                            class="dropdown-item nav-item"
-                                            data-page="services"
-                                            data-page-parent="services"
-                                            href="services.html"
-                                            data-main="true"
-                                        >
-                                            All Services
-                                        </a>
-                                    </li>
-                                    <li class="list-item">
-                                        <a
-                                            class="dropdown-item nav-item"
-                                            data-page="dapps"
-                                            data-page-parent="dapps"
-                                            href="dapps.html"
-                                        >
-                                            DApps
-                                        </a>
-                                    </li>
-                                    <li class="list-item">
-                                        <a
-                                            class="dropdown-item nav-item"
-                                            data-page="nft"
-                                            data-page-parent="nft"
-                                            href="nft.html"
-                                        >
-                                            NFT Marketplaces
-                                        </a>
-                                    </li>
-                                    <li class="list-item">
-                                        <a
-                                            class="dropdown-item nav-item"
-                                            data-page="gamefi"
-                                            data-page-parent="gamefi"
-                                            href="gamefi.html"
-                                        >
-                                            GameFi
-                                        </a>
-                                    </li>
-                                    <li class="list-item">
-                                        <a
-                                            class="dropdown-item nav-item"
-                                            data-page="metaverse"
-                                            data-page-parent="metaverse"
-                                            href="metaverse.html"
-                                        >
-                                            Metaverse
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <!--<li class="header_nav-list_item">
-                            <a class="nav-item nav-link" href="prices.html" data-page="prices" data-single="true">
-                                <span class="nav-item_text">Prices</span>
-                            </a>
-                        </li>
-                        <li class="header_nav-list_item">
-                            <a class="nav-item nav-link" href="blog.html" data-page="blog" data-single="true">
-                                <span class="nav-item_text">Blog</span>
-                            </a>
-                        </li>-->
-                        <li class="header_nav-list_item">
-                            <a class="nav-item nav-link" href="contact.html" data-page="contact" data-single="true">
-                                <span class="nav-item_text">Contact</span>
-                            </a>
-                        </li>
-                        <li class="header_nav-list_btn">
-                            <a class="btn signUpTrigger" href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </nav>
-                <a class="header_btn btn btn--neon signUpTrigger" href="#">Contact Us</a>
-                <button
-                    class="header_trigger"
-                    id="headerTrigger"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#headerMenu"
-                    aria-controls="headerMenu"
-                    aria-expanded="false"
-                    type="button"
-                >
-                    <i class="icon-arrow-left icon arrow-rotate"></i>
-                </button>
-            </div>
-        </header>
+        <div id="header"></div>
+
         <header class="page">
             <div class="page_animation">
                 <lottie-player
@@ -333,7 +207,7 @@
                     <h3 class="join_header">
                         Join
                         <span class="join_header-wrapper">
-                            <span class="number countNum" data-value="68000" data-suffix="+" data-separator=",">0</span>
+                            <span class="number countNum" data-value="0" data-suffix="+" data-separator=",">0</span>
                             <span class="animatedUnderline"></span>
                         </span>
                         growing businesses that use AW3A to drive Customer Experience
@@ -341,15 +215,15 @@
                     <ul class="join_list d-flex flex-column flex-md-row justify-content-md-center">
                         <li class="join_list-item">
                             <i class="icon-check icon"></i>
-                            No credit card required
+                            Be part of Web3
                         </li>
                         <li class="join_list-item">
                             <i class="icon-check icon"></i>
-                            14-day free trial
+                            Join the Metaverse
                         </li>
                         <li class="join_list-item">
                             <i class="icon-check icon"></i>
-                            Cancel Anytime
+                            Decentralization = Freedom
                         </li>
                     </ul>
                     <a class="join_btn btn btn--neon signUpTrigger" href="#">Get Started Now</a>
@@ -441,8 +315,9 @@
                 <i class="icon-arrow-up icon"></i>
             </a>
         </footer>
+        <script src="js/custom.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <script src="js/common.min.js"></script>
+        <script src="js/common.min.js" defer></script>
         <script src="js/ticker.min.js"></script>
     </body>
 </html>

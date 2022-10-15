@@ -503,7 +503,7 @@ input[type=checkbox]:checked+label .icon {
 }
 
 .breadcrumbs_item .link:focus,.breadcrumbs_item .link:hover {
-    color: #2a2aff
+    color: #4bff2a;
 }
 
 .stripe {
@@ -551,6 +551,10 @@ input[type=checkbox]:checked+label .icon {
     background: #4bff2a;
     width: 22px;
     height: 13px
+}
+
+.highlight{
+    border-bottom: 3px solid #4bff2a;
 }
 
 .tag {
@@ -1567,7 +1571,12 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 }
 
 .app_shapes {
-    display: none
+    display: none;
+    z-index: -1
+}
+
+#simpleswap-frame{
+    z-index: 9;
 }
 
 .app_main-header_text {
@@ -1616,7 +1625,7 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
 }
 
 .app_media {
-    height: 340px;
+    height: 450px;
     margin-bottom: 20px
 }
 

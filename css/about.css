@@ -502,7 +502,7 @@ input[type=checkbox]:checked+label .icon {
 }
 
 .breadcrumbs_item .link:focus,.breadcrumbs_item .link:hover {
-    color: #2a2aff
+    color: #4bff2a;
 }
 
 .stripe {
