@@ -1,300 +1,612 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="icon" type="image/x-icon" href="/favicon.png">
-        <title>Services | AW3A</title>
-        <script id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflS50iB-/www-widgetapi.js" async=""></script>
-        <script src="https://www.youtube.com/player_api"></script>
-        <link rel="stylesheet preload" as="style" href="css/preload.min.css" />
-        <link rel="stylesheet preload" as="style" href="css/icomoon.css" />
-        <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
-        <link rel="stylesheet" href="css/services.css" />
-        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        
-        <div id="header"></div>
+<!DOCTYPE html><html lang="zxx"><head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <header class="page">
-            <div class="page_shapes">
-                <div class="page_shapes-group page_shapes-group--left">
-                    <img class="main-shape" src="svg/shapes_bg.svg" alt="Services" />
-                    <img class="secondary-shape" src="svg/circles_white.svg" alt="Services" />
-                </div>
-                <div class="page_shapes-group page_shapes-group--right">
-                    <img class="main-shape" src="svg/shapes_bg3.svg" alt="Services" />
-                    <img class="secondary-shape" src="svg/ovals-line_group.svg" alt="Services" />
-                </div>
-            </div>
-            <div class="container">
-                <ul class="breadcrumbs d-flex flex-wrap">
-                    <li class="breadcrumbs_item">
-                        <a class="link" href="index.html">Home</a>
-                    </li>
+    <!-- Title -->
+    <title>AW3A - Web Agency || Services</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    
+    <!-- Flaticon -->
+    <link rel="stylesheet" href="css/flaticon.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/fontawesome-5.14.0.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.min.css">
+    <!-- Nice Select -->
+    <link rel="stylesheet" href="css/nice-select.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="css/slick.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="page-wrapper">
 
-                    <li class="breadcrumbs_item current">
-                        <span id="currentpage">Services</span>
-                    </li>
-                </ul>
-            </div>
-            <div class="container d-md-flex">
-                <div class="page_header">
-                    <div class="wrapper">
-                        <span class="tw-height h2">
-                            <span class="text">Services</span>
-                        </span>
-                        <h2 class="page_header-title type" data-text="Services">Services</h2>
+        <!-- Preloader -->
+        <div class="preloader"><div class="custom-loader"></div></div>
+
+        <!-- main header -->
+        <header class="main-header menu-absolute">
+
+            <!--Header-Upper-->
+            <div class="header-upper">
+                <div class="container container-1620 clearfix">
+
+                    <div class="header-inner rpy-10 rel d-flex align-items-center">
+                        <div class="logo-outer">
+                            <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo" title="Logo"></a></div>
+                        </div>
+
+                        <div class="nav-outer ms-lg-auto clearfix">
+                            <!-- Main Menu -->
+                            <nav class="main-menu navbar-expand-lg">
+                                <div class="navbar-header py-10">
+                                   <div class="mobile-logo">
+                                       <a href="index.html">
+                                            <img src="images/logo.png" alt="Logo" title="Logo">
+                                       </a>
+                                   </div>
+                                   
+                                    <!-- Toggle Button -->
+                                    <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation onepage clearfix">
+                                        <li><a href="index.html#home">Home</a></li>
+                                        <li><a href="index.html#about">about</a></li>
+                                        <li><a href="index.html#services">services</a></li>
+                                        <li><a href="index.html#projects">projects</a></li>
+                                        <!--<li><a href="index.html#team">team</a></li>-->
+                                        <li><a href="index.html#pricing">pricing</a></li>
+                                        <li><a href="index.html#why-us">Why Us</a></li>
+                                        <li><a href="/contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+
+                            </nav>
+                            <!-- Main Menu End-->
+                        </div>
+                        
+                        <!-- Nav Search -->
+                        <div class="nav-search py-10">
+                            <button class="far fa-search"></button>
+                            <form action="#" class="hide">
+                                <input type="text" placeholder="Search" class="searchbox" required="">
+                                <button type="submit" class="searchbutton far fa-search"></button>
+                            </form>
+                        </div>
+                        
+                        <!-- Menu Button -->
+                        <div class="menu-btns">
+                            <!-- menu sidbar -->
+                            <div class="menu-sidebar">
+                                <button>
+                                    <img src="images/toggler.svg" alt="Toggler">
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <h5 class="page_header-subtitle">We provide Web3 superpowers to your Startup idea</h5>
-                </div>
-                <div class="page_media">
-                    <img class="page_media-main" src="svg/services.svg" alt="Services" />
-                    <img class="page_media-shape" src="svg/ovalgreen.svg" alt="Services" />
                 </div>
             </div>
+            <!--End Header Upper-->
         </header>
-        <!-- services content start -->
-        <main class="services">
-            <div class="container">
-                <ul class="services_list d-flex flex-column">
-                    <li class="services_list-item">
-                        <div class="media">
-                            <picture>
-                                <source data-srcset="img/dapps_2.png" srcset="img/dapps_2.png" type="image/png" />
-                                <img
-                                    class="lazy"
-                                    data-src="img/dapps_2.png"
-                                    src="img/dapps_2.png" 
-                                    alt="Dapps"
-                                />
-                            </picture>
-                        </div>
-                        <div class="main">
-                            <h4 class="main_title">DApps</h4>
-                            <p class="main_text"><b class="highlight">DApps or Decentralized applications</b> (dApps) are digital applications or programs that exist and run on a <b class="highlight">blockchain or peer-to-peer (P2P)</b> network of computers instead of a single computer. These DApps can be developed for a variety of purposes including <b class="highlight">gaming</b>, <b class="highlight">finance</b>, and <b class="highlight">social media</b>. </p>
-                            <br />
-                            <ul class="main_list">
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    dApps Design & Development
-                                </li>
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    dStorage
-                                </li>
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    dIdentity
-                                </li>
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    dHosting
-                                </li>
-                            </ul>
-                            <a class="main_btn btn btn--neon" href="dapps.html">Read More About</a>
-                        </div>
-                    </li>
-                    <li class="services_list-item">
-                        <div class="media">
-                            <picture>
-                                <source data-srcset="img/nft_market.png" srcset="img/nft_market.png" type="image/png" />
-                                <img
-                                    class="lazy"
-                                    data-src="img/nft_market.png"
-                                    src="img/nft_market.png"
-                                    alt="Nft Market"
-                                />
-                            </picture>
-                        </div>
-                        <div class="main">
-                            <h4 class="main_title">NFT Marketplaces</h4>
-                            <p class="main_text">Are you interested in building your own <b class="highlight">NFT Marketplace</b>? Or just want to launch your <b class="highlight">next collection on Opensea</b>. We can help you create your own <b class="highlight">NFT experience</b>.</p>
-                            <br />
-                            <ul class="main_list">
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    NFT Minter
-                                </li>
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    NFT Marketplace
-                                </li>
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    NFT Market Integrations
-                                </li>
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    NFT Consulting
-                                </li>
-                            </ul>
-                            <a class="main_btn btn btn--neon" href="nft.html">Read More About</a>
-                        </div>
-                    </li>
-                    <li class="services_list-item">
-                        <div class="media">
-                            <picture>
-                                <source data-srcset="img/gamefi.jpeg" srcset="img/gamefi.jpeg" type="image/jpeg" />
-                                <img
-                                    class="lazy"
-                                    data-src="img/gamefi.jpeg"
-                                    src="img/gamefi.jpeg"
-                                    alt="Gamefi"
-                                />
-                            </picture>
-                        </div>
-                        <div class="main">
-                            <h4 class="main_title">GameFi</h4>
-                            <p class="main_text">The gaming industry is a <b class="highlight">multimillion dollar booming industry</b>, and Web3 comes along to bring <b class="highlight">seamless exchange of digital goods</b> in games. We provide <b class="highlight">development expertise</b> to make your next <b class="highlight">Web3 based game</b> a success.</p>
-                            <br />
-                            <ul class="main_list">
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    ImmutableX integrations
-                                </li>
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    Flow SDK integrations
-                                </li>
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    Assets management strategies
-                                </li>
-                            </ul>
-                            <a class="main_btn btn btn--neon" href="gamefi.html">Read More About</a>
-                        </div>
-                    </li>
-                    <li class="services_list-item">
-                        <div class="media">
-                            <picture>
-                                <source data-srcset="img/metaverse.jpeg" srcset="img/metaverse.jpeg" type="image/jpeg" />
-                                <img
-                                    class="lazy"
-                                    data-src="img/metaverse.jpeg"
-                                    src="img/metaverse.jpeg"
-                                    alt="Metaverse"
-                                />
-                            </picture>
-                        </div>
-                        <div class="main">
-                            <h4 class="main_title">Metaverse</h4>
-                            <p class="main_text">Interested in <b class="highlight">buying digital land</b>? or are you planning a <b class="highlight">Metaverse event</b>? We build <b class="highlight">custom experiences</b> tailored to your need in the <b class="highlight">Metaverse</b>.</p>
-                            <br />
-                            <ul class="main_list">
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    Decentraland / Sandbox / Roblox
-                                </li>
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    Digital Art Exhibit
-                                </li>
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    Online Live Events
-                                </li>
-                                <li class="main_list-item">
-                                    <i class="icon-circle icon"></i>
-                                    Metaverse Assets Management
-                                </li>
-                            </ul>
-                            <a class="main_btn btn btn--neon" href="metaverse.html">Read More About</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="stripe d-flex align-items-center">
-                <div class="stripe_block d-none d-sm-flex align-items-center">
-                    <span class="stripe_block-icon">
-                        <i class="icon-arrow-left icon"></i>
-                    </span>
-                    <ul class="stripe_block-list d-flex flex-column">
-                        <li>0+ Partners,</li>
-                        <li>0+ Investors,</li>
-                        <li>0+ Clients</li>
-                    </ul>
+       
+
+        <!--Form Back Drop-->
+        <div class="form-back-drop"></div>
+        
+        <!-- Hidden Sidebar -->
+        <section class="hidden-bar">
+            <div class="inner-box text-center">
+                <div class="cross-icon"><span class="fa fa-times"></span></div>
+                <div class="title">
+                    <h4>Get Appointment</h4>
                 </div>
-                <div class="ticker h3" id="ticker"></div>
-                <!--  ticker content changes here  -->
-                <div class="d-none">
-                        <span class="ticker-item">Blockchain</span>
-                        <span class="ticker-item">DApps</span>
-                        <span class="ticker-item">Metaverse</span>
-                        <span class="ticker-item">NFT</span>
-                        <span class="ticker-item">GameFi</span>
-                        <span class="ticker-item">Virtual Events</span>
-                    </div>
-                <!--  ticker content changes here  -->
+
+                <!--Appointment Form-->
+                <div class="appointment-form">
+                    <form method="post" action="contact.html">
+                        <div class="form-group">
+                            <input type="text" name="text" value="" placeholder="Name" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" value="" placeholder="Email Address" required="">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" rows="5"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="theme-btn">Submit now</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!--Social Icons-->
+                <div class="social-style-one">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
             </div>
-        </main>
-        <!-- services content end -->
-        <footer class="footer">
+        </section>
+        <!--End Hidden Sidebar -->
+       
+        
+        <!-- Page Banner Section Start -->
+        <section class="page-banner pt-210 rpt-150 pb-45 rpb-50 rel z-1" style="background-image: url(images/hero-two-bg.png)">
             <div class="container">
-                <div class="footer_top">
-                    <a class="logo footer_top-logo d-inline-flex align-items-center" href="index.html">
-                        <span class="logo_icon">
-                            <img src="svg/logo.svg" alt="AW3A" />
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="hero-title mb-100 rmb-50 wow fadeInUp delay-0-2s">
+                           Digital Services
+                           <img class="mxw-10 leaf" src="images/leaf.png" alt="Leaf">
+                           For Web Design &amp; Development
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Page Banner Section End -->
+        
+        
+        <!-- Feature Three Area start -->
+        <section class="feature-three-area pb-50 rpb-20 rel z-1">
+            <div class="container container-1290">
+                <div class="row gap-130">
+                    <div class="col-md-6">
+                        <div class="feature-item-three wow fadeInUp delay-0-2s">
+                            <div class="top-part">
+                                <span class="serial-number">01</span>
+                                <a class="details-btn" href="#"><i class="far fa-arrow-right"></i></a>
+                            </div>
+                            <div class="content">
+                                <h4>Web Development</h4>
+                                <p>Elevate your online presence with our expert web development services. From dynamic websites to complex web applications, our skilled team crafts solutions that seamlessly blend functionality and aesthetics, ensuring a user-centric digital experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-item-three wow fadeInUp delay-0-4s">
+                            <div class="top-part">
+                                <span class="serial-number">02</span>
+                                <a class="details-btn" href="#"><i class="far fa-arrow-right"></i></a>
+                            </div>
+                            <div class="content">
+                                <h4>Application Development</h4>
+                                <p>Bring your ideas to life with our application development expertise. We specialize in creating robust and scalable applications tailored to meet your unique needs. Whether it's a desktop, web, or mobile application, we deliver solutions that drive innovation and efficiency.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-item-three wow fadeInUp delay-0-2s">
+                            <div class="top-part">
+                                <span class="serial-number">03</span>
+                                <a class="details-btn" href="#"><i class="far fa-arrow-right"></i></a>
+                            </div>
+                            <div class="content">
+                                <h4>Digital Product Design</h4>
+                                <p>Immerse your audience in captivating digital experiences through our meticulous digital product design. From user interface (UI) to user experience (UX) design, we focus on creating visually stunning and intuitively functional designs that leave a lasting impression.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-item-three wow fadeInUp delay-0-4s">
+                            <div class="top-part">
+                                <span class="serial-number">04</span>
+                                <a class="details-btn" href="#"><i class="far fa-arrow-right"></i></a>
+                            </div>
+                            <div class="content">
+                                <h4>Mobile Development</h4>
+                                <p>Navigate the mobile landscape with our mobile development services. From Android to iOS, our team crafts mobile applications that stand out in the competitive app market. We prioritize performance, responsiveness, and user engagement to ensure your app's success.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-item-three wow fadeInUp delay-0-2s">
+                            <div class="top-part">
+                                <span class="serial-number">05</span>
+                                <a class="details-btn" href="#"><i class="far fa-arrow-right"></i></a>
+                            </div>
+                            <div class="content">
+                                <h4>Web Design & Development</h4>
+                                <p>Experience the synergy of design and functionality with our comprehensive web design and development services. Our integrated approach ensures that your website not only looks impressive but also performs seamlessly across devices, delivering a superior user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-item-three wow fadeInUp delay-0-4s">
+                            <div class="top-part">
+                                <span class="serial-number">06</span>
+                                <a class="details-btn" href="#"><i class="far fa-arrow-right"></i></a>
+                            </div>
+                            <div class="content">
+                                <h4>IT Consulting</h4>
+                                <p>Strategize for success with our IT consulting services. Leverage our industry insights and technological expertise to make informed decisions that drive your business forward. From infrastructure optimization to digital transformation, we're here to guide you.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-item-three wow fadeInUp delay-0-2s">
+                            <div class="top-part">
+                                <span class="serial-number">07</span>
+                                <a class="details-btn" href="#"><i class="far fa-arrow-right"></i></a>
+                            </div>
+                            <div class="content">
+                                <h4>Business Development</h4>
+                                <p>Empower your business growth with our strategic business development services. We collaborate closely with you to identify opportunities, streamline processes, and implement solutions that foster innovation and enhance your competitive edge.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-item-three wow fadeInUp delay-0-4s">
+                            <div class="top-part">
+                                <span class="serial-number">08</span>
+                                <a class="details-btn" href="#"><i class="far fa-arrow-right"></i></a>
+                            </div>
+                            <div class="content">
+                                <h4>Web3 Development</h4>
+                                <p>Embrace the future of the internet with our Web3 development services. From decentralized applications (DApps) to blockchain solutions, we specialize in leveraging the power of Web3 technologies to create innovative and secure digital ecosystems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Feature Three Area end -->
+        
+        
+        <!-- Headline area start -->
+        <div class="headline-area bgc-primary pt-80 pb-65">
+            <div class="container-fluid">
+                <div class="headline-wrap marquee">
+                    <span>
+                        <span class="marquee-item">
+                            <i class="fas fa-star-of-life"></i>
+                            <b>Design &amp; Branding</b>
                         </span>
-                        <span class="logo_text h2">AW3A</span>
-                    </a>
-                    <ul class="footer_top-nav d-flex flex-wrap">
-                        <li class="footer_top-nav_link">
-                            <a class="link h5" href="about.html">
-                                About
-                                <i class="icon-arrow-left icon arrow-rotate"></i>
-                            </a>
-                        </li>
-                        <li class="footer_top-nav_link">
-                            <a class="link h5" href="services.html">
-                                Services
-                                <i class="icon-arrow-left icon arrow-rotate"></i>
-                            </a>
-                        </li>
-                        <li class="footer_top-nav_link">
-                            <a class="link h5" href="contact.html">
-                                Contact
-                                <i class="icon-arrow-left icon arrow-rotate"></i>
-                            </a>
-                        </li>
-                    </ul>
+                        <span class="marquee-item">
+                            <i class="fas fa-star-of-life"></i>
+                            <b>Web Development</b>
+                        </span>
+                        <span class="marquee-item">
+                            <i class="fas fa-star-of-life"></i>
+                            <b>Mobile Apps</b>
+                        </span>
+                        <span class="marquee-item">
+                            <i class="fas fa-star-of-life"></i>
+                            <b>Design &amp; Branding</b>
+                        </span>
+                        <span class="marquee-item">
+                            <i class="fas fa-star-of-life"></i>
+                            <b>Web Development</b>
+                        </span>
+                        <span class="marquee-item">
+                            <i class="fas fa-star-of-life"></i>
+                            <b>Mobile Apps</b>
+                        </span>
+                        <span class="marquee-item">
+                            <i class="fas fa-star-of-life"></i>
+                            <b>Design &amp; Branding</b>
+                        </span>
+                        <span class="marquee-item">
+                            <i class="fas fa-star-of-life"></i>
+                            <b>Web Development</b>
+                        </span>
+                        <span class="marquee-item">
+                            <i class="fas fa-star-of-life"></i>
+                            <b>Mobile Apps</b>
+                        </span>
+                    </span>
                 </div>
-                <div class="footer_bottom">
-                    <div class="footer_bottom-contacts d-flex flex-column">
-                        <a class="link" href="mailto:aweb3agency@gmail.com">aweb3agency@gmail.com</a>
-                        <a class="link" href="tel:+1234567890">+1 829 764 9570</a>
-                    </div>
-                    <div class="footer_bottom-socials">
-                        <ul class="footer_bottom-socials_list socials d-flex flex-wrap">
-                            <li class="socials-item">
-                                <a class="link" href="https://twitter.com/AWeb3A" target="_blank" rel="noopener noreferrer">
-                                    <i class="icon-twitter icon"></i>
-                                </a>
-                            </li>
-                            <li class="socials-item">
-                                <a class="link" href="https://www.linkedin.com/company/aw3a/about/" target="_blank" rel="noopener noreferrer">
-                                    <i class="icon-linkedin icon"></i>
-                                </a>
-                            </li>
-                            <li class="socials-item">
-                                <a class="link" href="wa.link/ze2hc2" target="_blank" rel="noopener noreferrer">
-                                    <i class="icon-whatsapp icon"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <p class="footer_copyright">Copyright &copy; <span id="currentYear"></span> AW3A </p>
             </div>
-            <a class="footer_scroll" id="scrollToTop" href="#">
-                <i class="icon-arrow-up icon"></i>
-            </a>
+        </div>
+        <!-- Headline Area end -->
+        
+        
+        <!-- Work Process Area start -->
+        <section class="work-process-area pt-130 rpt-100 rel z-1">
+            <div class="container container-1290 rel z-1">
+                <div class="row gap-70">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="work-step-item style-two mt-60 wow fadeInDown delay-0-2s">
+                            <span class="step-number">Step 01</span>
+                            <h4 class="title">Idea Generate</h4>
+                            <div class="content">
+                                <p>Spark creativity with Idea Generation, where concepts come to life. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="work-step-item style-two wow fadeInUp delay-0-2s">
+                            <span class="step-number">Step 02</span>
+                            <h4 class="title">Plan &amp; Design</h4>
+                            <div class="content">
+                                <p>Strategize and Design the blueprint for success.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="work-step-item style-two mt-60 wow fadeInDown delay-0-2s">
+                            <span class="step-number">Step 03</span>
+                            <h4 class="title">Project Testing</h4>
+                            <div class="content">
+                                <p>Rigorous Project Testing ensures top-notch quality.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="work-step-item style-two wow fadeInUp delay-0-2s">
+                            <span class="step-number">Step 04</span>
+                            <h4 class="title">Got Results</h4>
+                            <div class="content">
+                                <p>Witness the culmination of efforts with outstanding Results.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-line-shape">
+                    <img src="images/work-process-line.png" alt="Work Process Line">
+                </div>
+            </div>
+        </section>
+        <!-- Work Process Area end -->
+        
+        
+        <!-- Testimonial Area start -->
+        <section class="testimonial-section pt-95 rpt-65 pb-130 rpb-100">
+            <div class="container container-1210">
+                <div class="row">
+                   <div class="col-lg-6">
+                       <div class="image-border-shape rmb-20 wow fadeInRight delay-0-2s">
+                           <img src="images/testimonials-four.jpg" alt="Testimonial Left Image">
+                           <div class="bottom-border"></div>
+                       </div>
+                   </div>
+                    <div class="col-lg-6">
+                        <div class="testimonial-one-right-part wow fadeInLeft delay-0-2s">
+                            <div class="testimonials-active">
+                                <div class="testimonial-item">
+                                    <div class="author-speech">
+                                        <p><span class="quote">“</span> On the other hand we denounce with see righteous indignation and dislike men who are beguiled and demoralized by the charms offset pleasure moments line desire that they cannot foresee pain and trouble that are bound ensue and equal blame belongs their duty <span class="quote right-quote">“</span></p>
+                                    </div>
+                                    <div class="testimonial-footer">
+                                        <div class="testimonial-author">
+                                            <div class="author-image">
+                                                <img src="images/author1.png" alt="Author Image">
+                                            </div>
+                                            <div class="author-info">
+                                                <h4>James N. Johnson</h4>
+                                                <span class="designation">CEO &amp; Founder</span>
+                                            </div>
+                                        </div>
+                                        <div class="ratting style-two">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-item">
+                                    <div class="author-speech">
+                                        <p><span class="quote">“</span> On the other hand we denounce with see righteous indignation and dislike men who are beguiled and demoralized by the charms offset pleasure moments line desire that they cannot foresee pain and trouble that are bound ensue and equal blame belongs their duty <span class="quote right-quote">“</span></p>
+                                    </div>
+                                    <div class="testimonial-footer">
+                                        <div class="testimonial-author">
+                                            <div class="author-image">
+                                                <img src="images/author1.png" alt="Author Image">
+                                            </div>
+                                            <div class="author-info">
+                                                <h4>James N. Johnson</h4>
+                                                <span class="designation">CEO &amp; Founder</span>
+                                            </div>
+                                        </div>
+                                        <div class="ratting style-two">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-item">
+                                    <div class="author-speech">
+                                        <p><span class="quote">“</span> On the other hand we denounce with see righteous indignation and dislike men who are beguiled and demoralized by the charms offset pleasure moments line desire that they cannot foresee pain and trouble that are bound ensue and equal blame belongs their duty <span class="quote right-quote">“</span></p>
+                                    </div>
+                                    <div class="testimonial-footer">
+                                        <div class="testimonial-author">
+                                            <div class="author-image">
+                                                <img src="images/author1.png" alt="Author Image">
+                                            </div>
+                                            <div class="author-info">
+                                                <h4>James N. Johnson</h4>
+                                                <span class="designation">CEO &amp; Founder</span>
+                                            </div>
+                                        </div>
+                                        <div class="ratting style-two">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-item">
+                                    <div class="author-speech">
+                                        <p><span class="quote">“</span> On the other hand we denounce with see righteous indignation and dislike men who are beguiled and demoralized by the charms offset pleasure moments line desire that they cannot foresee pain and trouble that are bound ensue and equal blame belongs their duty <span class="quote right-quote">“</span></p>
+                                    </div>
+                                    <div class="testimonial-footer">
+                                        <div class="testimonial-author">
+                                            <div class="author-image">
+                                                <img src="images/author1.png" alt="Author Image">
+                                            </div>
+                                            <div class="author-info">
+                                                <h4>James N. Johnson</h4>
+                                                <span class="designation">CEO &amp; Founder</span>
+                                            </div>
+                                        </div>
+                                        <div class="ratting style-two">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-controls mt-75 rmt-40">
+                                <button class="testimonial-prev">
+                                    <i class="far fa-chevron-left"></i>
+                                </button>
+                                <div class="testimonial-dots"></div>
+                                <button class="testimonial-next">
+                                    <i class="far fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial Area end -->
+        
+        
+        <!-- footer area start -->
+        <footer class="main-footer rel z-1" style="background-image: url(images/footer-bg-shape-two.png)">
+            <div class="container container-1290">
+                <div class="footer-top pt-80 pb-60">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4">
+                            <div class="footer-logo mb-20 wow fadeInRight delay-0-2s">
+                                <a href="index.html"><img src="images/footer-logo.png" alt="Logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 text-lg-end">
+                            <div class="social-style-four mb-20 wow fadeInLeft delay-0-2s">
+                                <a target="_blank" href="#"><i class="fab fa-facebook-f"></i> <span>Facebook</span></a>
+                                <a target="_blank" href="https://twitter.com/AWeb3A"><i class="fab fa-twitter"></i> <span>Twitter</span></a>
+                                <a target="_blank" href="https://www.linkedin.com/company/aw3a/about/"><i class="fab fa-linkedin"></i> <span>Linkedin</span></a>
+                                <a target="_blank" href="https://www.aw3a.com/wa.link/ze2hc2"><i class="fab fa-whatsapp"></i> <span>Whatsapp</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="footer-left-content pt-80">
+                            <div class="lets-work mb-50 wow fadeInUp delay-0-2s">
+                                <img src="images/logo.png" alt="logo">
+                                <span>Let’s Work Together</span>
+                            </div>
+                            <div class="footer-contact-info wow fadeInUp delay-0-3s">
+                                <a class="theme-btn style-three" href="mailto:aweb3agency@gmail.com">
+                                    aweb3agency@gmail.com
+                                    <i class="far fa-arrow-right"></i>
+                                </a>
+                                <a class="theme-btn style-three phone-number" href="callto:+18297649570">+1 829 764 9570<i class="far fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-right-content">
+                            <h4 class="footer-title wow fadeInUp delay-0-2s">Quick Links</h4>
+                            <div class="footer-widget widget_nav_menu">
+                                <ul class="list-style-two wow fadeInUp delay-0-3s">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <!--<li><a href="team.html">Team Member</a></li>
+                                    <li><a href="blog.html">Latest News</a></li>-->
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                                <!--
+                                <ul class="list-style-two wow fadeInUp delay-0-4s">
+                                    <li><a href="index.html">UI/UX Design</a></li>
+                                    <li><a href="index2.html">Development</a></li>
+                                    <li><a href="index3.html">Marketing</a></li>
+                                    <li><a href="contact.html">Need a Career</a></li>
+                                    <li><a href="faqs.html">Faqs ?</a></li>
+                                </ul>
+                                -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row align-items-center">
+                        <div class="col-xl-8 col-lg-6">
+                            <!--
+                            <div class="footer-bottom-menu pt-40 pb-35 rpb-0 wow fadeInRight delay-0-2s">
+                                <ul>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="services.html">How IT Works</a></li>
+                                </ul>
+                            </div>
+                            -->
+                        </div>
+                        <div class="col-xl-4 col-lg-6">
+                            <div class="copyright-text text-lg-end pt-40 pb-35 rpt-10 wow fadeInLeft delay-0-2s">
+                                <p>Copyright @2023, <a href="index.html">AW3A</a> All Rights Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
-        <script src="js/custom.js"></script>
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <script src="js/common.min.js" defer></script>
-        <script src="js/ticker.min.js"></script>
-    </body>
-</html>
+        <!-- footer area end -->
+        
+        
+        <!-- Scroll Top Button -->
+        <button class="scroll-top scroll-to-target" data-target="html"><span class="fas fa-angle-double-up"></span></button>
+
+    </div>
+    <!--End pagewrapper-->
+   
+    
+    <!-- Jquery -->
+    <script data-cfasync="false" src="js/email-decode.min.js"></script><script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Appear Js -->
+    <script src="js/appear.min.js"></script>
+    <!-- Slick -->
+    <script src="js/slick.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Nice Select -->
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- Image Loader -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <!-- Circle Progress -->
+    <script src="js/circle-progress.min.js"></script>
+    <!-- Isotope -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!--  WOW Animation -->
+    <script src="js/wow.min.js"></script>
+    <!-- Custom script -->
+    <script src="js/script.js"></script>
+
+
+</body></html>

@@ -1,374 +1,491 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="icon" type="image/x-icon" href="/favicon.png">
-        <title>Blog | AW3A</title>
-        <script id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflS50iB-/www-widgetapi.js" async=""></script>
-        <script src="https://www.youtube.com/player_api"></script>
-        <link rel="stylesheet preload" as="style" href="css/preload.min.css" />
-        <link rel="stylesheet preload" as="style" href="css/icomoon.css" />
-        <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
-        <link rel="stylesheet" href="css/blog.css" />
-        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        
-        <div id="header"></div>
+<!DOCTYPE html><html lang="zxx"><head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <header class="page">
-            <div class="container">
-                <ul class="breadcrumbs d-flex flex-wrap">
-                    <li class="breadcrumbs_item">
-                        <a class="link" href="index.html">Home</a>
-                    </li>
+    <!-- Title -->
+    <title>AW3A - Web Agency || Blog</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    
+    <!-- Flaticon -->
+    <link rel="stylesheet" href="css/flaticon.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/fontawesome-5.14.0.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.min.css">
+    <!-- Nice Select -->
+    <link rel="stylesheet" href="css/nice-select.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="css/slick.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="page-wrapper">
 
-                    <li class="breadcrumbs_item current">
-                        <span id="currentpage">Blog</span>
-                    </li>
-                </ul>
-                <div class="wrapper">
-                    <span class="tw-height h2">
-                        <span class="text">Our Blog</span>
-                    </span>
-                    <h2 class="page_title type" data-text="Our Blog">Our Blog</h2>
+        <!-- Preloader -->
+        <div class="preloader"><div class="custom-loader"></div></div>
+
+        <!-- main header -->
+        <header class="main-header menu-absolute">
+
+            <!--Header-Upper-->
+            <div class="header-upper">
+                <div class="container container-1620 clearfix">
+
+                    <div class="header-inner rpy-10 rel d-flex align-items-center">
+                        <div class="logo-outer">
+                            <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo" title="Logo"></a></div>
+                        </div>
+
+                        <div class="nav-outer ms-lg-auto clearfix">
+                            <!-- Main Menu -->
+                            <nav class="main-menu navbar-expand-lg">
+                                <div class="navbar-header py-10">
+                                   <div class="mobile-logo">
+                                       <a href="index.html">
+                                            <img src="images/logo.png" alt="Logo" title="Logo">
+                                       </a>
+                                   </div>
+                                   
+                                    <!-- Toggle Button -->
+                                    <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation onepage clearfix">
+                                        <li><a href="index.html#home">Home</a></li>
+                                        <li><a href="index.html#about">about</a></li>
+                                        <li><a href="index.html#services">services</a></li>
+                                        <li><a href="index.html#projects">projects</a></li>
+                                        <!--<li><a href="index.html#team">team</a></li>-->
+                                        <li><a href="index.html#pricing">pricing</a></li>
+                                        <li><a href="index.html#why-us">Why Us</a></li>
+                                        <li><a href="/contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+
+                            </nav>
+                            <!-- Main Menu End-->
+                        </div>
+                        
+                        <!-- Nav Search -->
+                        <div class="nav-search py-10">
+                            <button class="far fa-search"></button>
+                            <form action="#" class="hide">
+                                <input type="text" placeholder="Search" class="searchbox" required="">
+                                <button type="submit" class="searchbutton far fa-search"></button>
+                            </form>
+                        </div>
+                        
+                        <!-- Menu Button -->
+                        <div class="menu-btns">
+                            <!-- menu sidbar -->
+                            <div class="menu-sidebar">
+                                <button>
+                                    <img src="images/toggler.svg" alt="Toggler">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!--End Header Upper-->
         </header>
-        <!-- blog boxes content start -->
-        <main class="blog">
-            <div class="container">
-                <ul class="blog_filters d-flex flex-wrap">
-                    <li class="list-item">
-                        <a class="blog_filters-item current" data-target="all" href="#">all</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="blog_filters-item" data-target="top" href="#">top</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="blog_filters-item" data-target="advices" href="#">advices</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="blog_filters-item" data-target="market" href="#">Market reporter</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="blog_filters-item" data-target="startups" href="#">Startups</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="blog_filters-item" data-target="maintenance" href="#">maintenance</a>
-                    </li>
-                </ul>
-                <div class="blog_posts">
-                    <div class="blog_posts-item post-item" data-groups='["advices", "startups"]'>
-                        <div class="wrapper">
-                            <div class="main">
-                                <a class="main_title h5" href="post.html">
-                                    Amazing VR App Turns Any Room Into A Mixed Reality Stargazing Lounge
-                                </a>
-                                <div class="main_meta d-flex flex-wrap align-items-center">
-                                    <p class="main_meta-item">02 Jan 2022</p>
-                                    <p class="main_meta-item">by Emily Smith</p>
-                                    <p class="main_meta-item">2 Comments</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                    <img
-                                        class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="Amazing VR App Turns Any Room Into A Mixed Reality Stargazing Lounge"
-                                    />
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog_posts-item post-item" data-groups='["market", "startups", "top"]'>
-                        <div class="wrapper">
-                            <div class="main">
-                                <a class="main_title h5" href="post.html"> Customer Success 101: How to Power Up Your Startup’s Growth </a>
-                                <div class="main_meta d-flex flex-wrap align-items-center">
-                                    <p class="main_meta-item">02 Jan 2022</p>
-                                    <p class="main_meta-item">by Emily Smith</p>
-                                    <p class="main_meta-item">No Comments</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                    <img
-                                        class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="Customer Success 101: How to Power Up Your Startup’s Growth in New 2022 Season"
-                                    />
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog_posts-item post-item" data-groups='["market", "startups", "top", "maintenance"]'>
-                        <div class="wrapper">
-                            <div class="main">
-                                <a class="main_title h5" href="post.html">
-                                    How to Build, Improve and Pivot a Minimum Viable Saas Product for Marketing
-                                </a>
-                                <div class="main_meta d-flex flex-wrap align-items-center">
-                                    <p class="main_meta-item">02 Jan 2022</p>
-                                    <p class="main_meta-item">by Emily Smith</p>
-                                    <p class="main_meta-item">3 Comments</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                    <img
-                                        class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="How to Build, Improve and Pivot a Minimum Viable Saas Product for Marketing"
-                                    />
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog_posts-item post-item" data-groups='["market", "advices", "top", "maintenance"]'>
-                        <div class="wrapper">
-                            <div class="main">
-                                <a class="main_title h5" href="post.html">
-                                    We Share Research and Inspiration of Physical and Online Spaces
-                                </a>
-                                <div class="main_meta d-flex flex-wrap align-items-center">
-                                    <p class="main_meta-item">02 Jan 2022</p>
-                                    <p class="main_meta-item">by Emily Smith</p>
-                                    <p class="main_meta-item">no Comments</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                    <img
-                                        class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="We Share Research and Inspiration of Physical and Online Spaces That Are Public-friendly"
-                                    />
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog_posts-item post-item" data-groups='["advices", "maintenance"]'>
-                        <div class="wrapper">
-                            <div class="main">
-                                <a class="main_title h5" href="post.html">
-                                    The Ultimate Guide to Saas Pricing Models, Strategies & Psychological Hacks
-                                </a>
-                                <div class="main_meta d-flex flex-wrap align-items-center">
-                                    <p class="main_meta-item">02 Jan 2022</p>
-                                    <p class="main_meta-item">by Emily Smith</p>
-                                    <p class="main_meta-item">no Comments</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                    <img
-                                        class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="The Ultimate Guide to Saas Pricing Models, Strategies & Psychological Hacks"
-                                    />
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog_posts-item post-item" data-groups='["startups", "top", "maintenance"]'>
-                        <div class="wrapper">
-                            <div class="main">
-                                <a class="main_title h5" href="post.html">
-                                    How to Implement and Operate Asset Performance Management Efficiently
-                                </a>
-                                <div class="main_meta d-flex flex-wrap align-items-center">
-                                    <p class="main_meta-item">02 Jan 2022</p>
-                                    <p class="main_meta-item">by Emily Smith</p>
-                                    <p class="main_meta-item">no Comments</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                    <img
-                                        class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="How to Implement and Operate Asset Performance Management Efficiently"
-                                    />
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog_posts-item post-item" data-groups='["startups", "advices", "maintenance"]'>
-                        <div class="wrapper">
-                            <div class="main">
-                                <a class="main_title h5" href="post.html">
-                                    Amazing VR App Turns Any Room Into A Mixed Reality Stargazing Lounge
-                                </a>
-                                <div class="main_meta d-flex flex-wrap align-items-center">
-                                    <p class="main_meta-item">02 Jan 2022</p>
-                                    <p class="main_meta-item">by Emily Smith</p>
-                                    <p class="main_meta-item">1 Comment</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                    <img
-                                        class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="Amazing VR App Turns Any Room Into A Mixed Reality Stargazing Lounge"
-                                    />
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog_posts-item post-item" data-groups='["advices", "market"]'>
-                        <div class="wrapper">
-                            <div class="main">
-                                <a class="main_title h5" href="post.html">
-                                    Customer Success 101: How to Power Up Your Startup’s Growth and Investments
-                                </a>
-                                <div class="main_meta d-flex flex-wrap align-items-center">
-                                    <p class="main_meta-item">02 Jan 2022</p>
-                                    <p class="main_meta-item">by Emily Smith</p>
-                                    <p class="main_meta-item">200 Comments</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                    <img
-                                        class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="Customer Success 101: How to Power Up Your Startup’s Growth and Investments"
-                                    />
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog_posts-item post-item" data-groups='["advices", "market"]'>
-                        <div class="wrapper">
-                            <div class="main">
-                                <a class="main_title h5" href="post.html">
-                                    AW3A is Tech’s Latest Unicorn: We Raised $150M in Investment
-                                </a>
-                                <div class="main_meta d-flex flex-wrap align-items-center">
-                                    <p class="main_meta-item">02 Jan 2022</p>
-                                    <p class="main_meta-item">by Emily Smith</p>
-                                    <p class="main_meta-item">no Comments</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                    <img
-                                        class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="AW3A is Tech’s Latest Unicorn: We Raised $150M in Investment to Find Prove Stocks"
-                                    />
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
+       
+
+        <!--Form Back Drop-->
+        <div class="form-back-drop"></div>
+        
+        <!-- Hidden Sidebar -->
+        <section class="hidden-bar">
+            <div class="inner-box text-center">
+                <div class="cross-icon"><span class="fa fa-times"></span></div>
+                <div class="title">
+                    <h4>Get Appointment</h4>
                 </div>
-                <ul class="pagination d-flex flex-wrap align-items-center justify-content-end">
-                    <li class="pagination_item">
-                        <a class="link current" href="#">1</a>
-                    </li>
-                    <li class="pagination_item">
-                        <a class="link" href="#">2</a>
-                    </li>
-                    <li class="pagination_item">
-                        <a class="link" href="#">3</a>
-                    </li>
-                    <li class="pagination_item">
-                        <a class="control" href="#">
-                            <i class="icon-chevron-double-right icon"></i>
-                        </a>
-                    </li>
-                </ul>
+
+                <!--Appointment Form-->
+                <div class="appointment-form">
+                    <form method="post" action="contact.html">
+                        <div class="form-group">
+                            <input type="text" name="text" value="" placeholder="Name" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" value="" placeholder="Email Address" required="">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" rows="5"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="theme-btn">Submit now</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!--Social Icons-->
+                <div class="social-style-one">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
             </div>
-        </main>
-        <!-- blog boxes content end -->
-        <footer class="footer">
+        </section>
+        <!--End Hidden Sidebar -->
+        
+        
+        <!-- Page Banner Start -->
+        <section class="page-banner-area overlay pt-220 rpt-150 pb-170 rpb-100 rel z-1 bgs-cover text-center" style="background-image: url(images/banner-bg.jpg);">
             <div class="container">
-                <div class="footer_top">
-                    <a class="logo footer_top-logo d-inline-flex align-items-center" href="index.html">
-                        <span class="logo_icon">
-                            <img src="svg/logo.svg" alt="AW3A" />
-                        </span>
-                        <span class="logo_text h2">AW3A</span>
-                    </a>
-                    <ul class="footer_top-nav d-flex flex-wrap">
-                        <li class="footer_top-nav_link">
-                            <a class="link h5" href="about.html">
-                                About
-                                <i class="icon-arrow-left icon arrow-rotate"></i>
-                            </a>
-                        </li>
-                        <li class="footer_top-nav_link">
-                            <a class="link h5" href="services.html">
-                                Services
-                                <i class="icon-arrow-left icon arrow-rotate"></i>
-                            </a>
-                        </li>
-                        <li class="footer_top-nav_link">
-                            <a class="link h5" href="contact.html">
-                                Contact
-                                <i class="icon-arrow-left icon arrow-rotate"></i>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="banner-inner rpt-10">
+                    <h2 class="page-title wow fadeInUp delay-0-2s">Blog Grid</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center wow fadeInUp delay-0-4s">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active">Blog Grid</li>
+                        </ol>
+                    </nav>
                 </div>
-                <div class="footer_bottom">
-                    <div class="footer_bottom-contacts d-flex flex-column">
-                        <a class="link" href="mailto:aweb3agency@gmail.com">aweb3agency@gmail.com</a>
-                        <a class="link" href="tel:+1234567890">+1 829 764 9570</a>
+            </div>
+        </section>
+        <!-- Page Banner End -->
+        
+        
+        <!-- Blog Page Area start -->
+        <section class="blog-page-area py-130 rpy-100 rel z-1">
+            <div class="container container-1290">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="blog-item wow fadeInUp delay-0-2s">
+                            <div class="image">
+                                <img src="images/blog1.jpg" alt="Blog">
+                            </div>
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <a href="#">February 18, 2023</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-comments"></i>
+                                    <a href="#">Comment (5)</a>
+                                </li>
+                            </ul>
+                            <hr>
+                            <h4><a href="blog-details.html">Voice Skills For Google Assistant And Amazon Alexa</a></h4>
+                            <a class="read-more" href="blog-details.html">Read More <i class="far fa-arrow-right"></i></a>
+                        </div>
                     </div>
-                    <div class="footer_bottom-socials">
-                        <ul class="footer_bottom-socials_list socials d-flex flex-wrap">
-                            <li class="socials-item">
-                                <a class="link" href="https://twitter.com/AWeb3A" target="_blank" rel="noopener noreferrer">
-                                    <i class="icon-twitter icon"></i>
-                                </a>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="blog-item wow fadeInUp delay-0-4s">
+                            <div class="image">
+                                <img src="images/blog2.jpg" alt="Blog">
+                            </div>
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <a href="#">February 18, 2023</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-comments"></i>
+                                    <a href="#">Comment (5)</a>
+                                </li>
+                            </ul>
+                            <hr>
+                            <h4><a href="blog-details.html">Inclusive Design And Accessibility Stream Heydon Pickering</a></h4>
+                            <a class="read-more" href="blog-details.html">Read More <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="blog-item wow fadeInUp delay-0-6s">
+                            <div class="image">
+                                <img src="images/blog3.jpg" alt="Blog">
+                            </div>
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <a href="#">February 18, 2023</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-comments"></i>
+                                    <a href="#">Comment (5)</a>
+                                </li>
+                            </ul>
+                            <hr>
+                            <h4><a href="blog-details.html">Creating Online Environments The Work Well For Older Users</a></h4>
+                            <a class="read-more" href="blog-details.html">Read More <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="blog-item wow fadeInUp delay-0-2s">
+                            <div class="image">
+                                <img src="images/blog4.jpg" alt="Blog">
+                            </div>
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <a href="#">February 18, 2023</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-comments"></i>
+                                    <a href="#">Comment (5)</a>
+                                </li>
+                            </ul>
+                            <hr>
+                            <h4><a href="blog-details.html">Tips Conducting Usability Studies With Participants Disabilities</a></h4>
+                            <a class="read-more" href="blog-details.html">Read More <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="blog-item wow fadeInUp delay-0-4s">
+                            <div class="image">
+                                <img src="images/blog5.jpg" alt="Blog">
+                            </div>
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <a href="#">February 18, 2023</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-comments"></i>
+                                    <a href="#">Comment (5)</a>
+                                </li>
+                            </ul>
+                            <hr>
+                            <h4><a href="blog-details.html">Online Environments That Work Well For Older Users</a></h4>
+                            <a class="read-more" href="blog-details.html">Read More <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="blog-item wow fadeInUp delay-0-6s">
+                            <div class="image">
+                                <img src="images/blog6.jpg" alt="Blog">
+                            </div>
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <a href="#">February 18, 2023</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-comments"></i>
+                                    <a href="#">Comment (5)</a>
+                                </li>
+                            </ul>
+                            <hr>
+                            <h4><a href="blog-details.html">Building Accessible Menu Systems Assistive Technology Users</a></h4>
+                            <a class="read-more" href="blog-details.html">Read More <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="blog-item wow fadeInUp delay-0-2s">
+                            <div class="image">
+                                <img src="images/blog7.jpg" alt="Blog">
+                            </div>
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <a href="#">February 18, 2023</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-comments"></i>
+                                    <a href="#">Comment (5)</a>
+                                </li>
+                            </ul>
+                            <hr>
+                            <h4><a href="blog-details.html">Inclusive Design And Accessibility Live Stream Heydon Pickering</a></h4>
+                            <a class="read-more" href="blog-details.html">Read More <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="blog-item wow fadeInUp delay-0-4s">
+                            <div class="image">
+                                <img src="images/blog8.jpg" alt="Blog">
+                            </div>
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <a href="#">February 18, 2023</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-comments"></i>
+                                    <a href="#">Comment (5)</a>
+                                </li>
+                            </ul>
+                            <hr>
+                            <h4><a href="blog-details.html">3d Cartoon Woman Sitting and Thinking to Solve Tasks</a></h4>
+                            <a class="read-more" href="blog-details.html">Read More <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="blog-item wow fadeInUp delay-0-6s">
+                            <div class="image">
+                                <img src="images/blog9.jpg" alt="Blog">
+                            </div>
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <a href="#">February 18, 2023</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-comments"></i>
+                                    <a href="#">Comment (5)</a>
+                                </li>
+                            </ul>
+                            <hr>
+                            <h4><a href="blog-details.html">Poster frame in living room mock up family member's hands holding</a></h4>
+                            <a class="read-more" href="blog-details.html">Read More <i class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <ul class="pagination mt-10 flex-wrap justify-content-center wow fadeInUp delay-0-2s">
+                            <li class="page-item disabled">
+                                <span class="page-link"><i class="fas fa-angle-left"></i></span>
                             </li>
-                            <li class="socials-item">
-                                <a class="link" href="https://www.linkedin.com/company/aw3a/about/" target="_blank" rel="noopener noreferrer">
-                                    <i class="icon-linkedin icon"></i>
-                                </a>
+                            <li class="page-item active">
+                                <span class="page-link">
+                                    01
+                                    <span class="sr-only">(current)</span>
+                                </span>
                             </li>
-                            <li class="socials-item">
-                                <a class="link" href="wa.link/ze2hc2" target="_blank" rel="noopener noreferrer">
-                                    <i class="icon-whatsapp icon"></i>
-                                </a>
+                            <li class="page-item"><a class="page-link" href="#">02</a></li>
+                            <li class="page-item"><a class="page-link" href="#">03</a></li>
+                            <li class="page-item"><a class="page-link" href="#">04</a></li>
+                            <li class="page-item dot"></li>
+                            <li class="page-item dot"></li>
+                            <li class="page-item dot"></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#"><i class="fas fa-angle-right"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <p class="footer_copyright">Copyright &copy; <span id="currentYear"></span> AW3A </p>
             </div>
-            <a class="footer_scroll" id="scrollToTop" href="#">
-                <i class="icon-arrow-up icon"></i>
-            </a>
+        </section>
+        <!-- Blog Page Area end -->
+        
+       
+        <!-- footer area start -->
+        <footer class="main-footer rel z-1" style="background-image: url(images/footer-bg-shape-two.png)">
+            <div class="container container-1290">
+                <div class="footer-top pt-80 pb-60">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4">
+                            <div class="footer-logo mb-20 wow fadeInRight delay-0-2s">
+                                <a href="index.html"><img src="images/footer-logo.png" alt="Logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 text-lg-end">
+                            <div class="social-style-four mb-20 wow fadeInLeft delay-0-2s">
+                                <a href="#"><i class="fab fa-facebook-f"></i> <span>Facebook</span></a>
+                                <a href="#"><i class="fab fa-twitter"></i> <span>Twitter</span></a>
+                                <a href="#"><i class="fab fa-dribbble"></i> <span>Dribbble</span></a>
+                                <a href="#"><i class="fab fa-behance"></i> <span>Behance</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="footer-left-content pt-80">
+                            <div class="lets-work mb-50 wow fadeInUp delay-0-2s">
+                                <img src="images/lets-work.png" alt="Let's Work Man">
+                                <span>Let’s Work Together</span>
+                            </div>
+                            <div class="footer-contact-info wow fadeInUp delay-0-3s">
+                                <a class="theme-btn style-three" href="/cdn-cgi/l/email-protection#3c4f494c4c534e487c5b515d5550125f5351"><span class="__cf_email__" data-cfemail="4c3f393c3c233e380c2b212d2520622f2321">[email�&nbsp;protected]</span> <i class="far fa-arrow-right"></i></a>
+                                <a class="theme-btn style-three phone-number" href="callto:+000(123)45688">+000 (123) 456 88 <i class="far fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-right-content">
+                            <h4 class="footer-title wow fadeInUp delay-0-2s">Quick Links</h4>
+                            <div class="footer-widget widget_nav_menu">
+                                <ul class="list-style-two wow fadeInUp delay-0-3s">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="services.html">Popular Services</a></li>
+                                    <li><a href="team.html">Team Member</a></li>
+                                    <li><a href="blog.html">Latest News</a></li>
+                                    <li><a href="contact.html">Contact Us?</a></li>
+                                </ul>
+                                <ul class="list-style-two wow fadeInUp delay-0-4s">
+                                    <li><a href="index.html">UI/UX Design</a></li>
+                                    <li><a href="index2.html">Development</a></li>
+                                    <li><a href="index3.html">Marketing</a></li>
+                                    <li><a href="contact.html">Need a Career</a></li>
+                                    <li><a href="faqs.html">Faqs ?</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row align-items-center">
+                        <div class="col-xl-8 col-lg-6">
+                            <div class="footer-bottom-menu pt-40 pb-35 rpb-0 wow fadeInRight delay-0-2s">
+                                <ul>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="faqs.html">Faqs</a></li>
+                                    <li><a href="services.html">How IT Works</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6">
+                            <div class="copyright-text text-lg-end pt-40 pb-35 rpt-10 wow fadeInLeft delay-0-2s">
+                                <p>Copyright @2023, <a href="index.html">AW3A</a> All Rights Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
-        <script src="js/custom.js"></script>
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <script src="js/common.min.js" defer></script>
-        <script src="js/ticker.min.js"></script>
-        <script src="js/blog.min.js"></script>
-    </body>
-</html>
+        <!-- footer area end -->
+        
+        
+        <!-- Scroll Top Button -->
+        <button class="scroll-top scroll-to-target" data-target="html"><span class="fas fa-angle-double-up"></span></button>
+
+    </div>
+    <!--End pagewrapper-->
+   
+    
+    <!-- Jquery -->
+    <script data-cfasync="false" src="js/email-decode.min.js"></script><script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Appear Js -->
+    <script src="js/appear.min.js"></script>
+    <!-- Slick -->
+    <script src="js/slick.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Nice Select -->
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- Image Loader -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <!-- Circle Progress -->
+    <script src="js/circle-progress.min.js"></script>
+    <!-- Isotope -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!--  WOW Animation -->
+    <script src="js/wow.min.js"></script>
+    <!-- Custom script -->
+    <script src="js/script.js"></script>
+
+
+</body></html>
