@@ -8509,9 +8509,11 @@ blockquote {
   max-width: -moz-max-content;
   max-width: max-content; }
   .image-border-shape .bottom-border {
+    /*
     position: absolute;
     right: -15px;
     bottom: 50px;
+    */
     z-index: -1;
     -webkit-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
