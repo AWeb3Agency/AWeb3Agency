@@ -72,6 +72,12 @@ a {
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none; }
+  a.underline {
+    color: var(--aw3a-primary-color); }
+  a.underline:hover {
+    color: var(--aw3a-primary-color);
+    text-decoration: underline;
+   }
   a:hover, a:focus, a:visited {
     text-decoration: none;
     outline: none; }
@@ -354,7 +360,7 @@ input[type=checkbox], input[type=radio] {
   text-align: center; }
   .big-text.light-opacity {
     z-index: -1;
-    opacity: 0.03;
+    opacity: 0.05;
     position: relative;
     margin-top: -100px; }
 
