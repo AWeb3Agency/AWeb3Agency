@@ -121,7 +121,7 @@
 
                 <!--Appointment Form-->
                 <div class="appointment-form">
-                    <form method="post" action="https://api.web3forms.com/submit">
+                    <form method="post" action="https://api.web3forms.com/submit"> 
                         <input type="hidden" name="access_key" value="455470c2-e0cd-4956-92e6-a0b7d60fe834">
                         <div class="form-group">
                             <input type="text" name="text" placeholder="Name" required="">
@@ -186,17 +186,9 @@
                                 <div class="col-sm-6">
                                     <div class="our-location-address mb-40">
                                         <h5>Santo Domingo</h5>
-                                        <p>Calle Las Carreras, 11, Ciudad Nueva</p>
-                                        <a class="mailto" href="/cdn-cgi/l/email-protection#1d6e686d6d726f695d7a707c7471337e7270"><span class="__cf_email__" data-cfemail="d0a3a5a0a0bfa2a490b7bdb1b9bcfeb3bfbd">[email�&nbsp;protected]</span></a><br>
-                                        <a class="callto" href="callto:+00012345688"><i class="fas fa-phone"></i> +000 (123) 456 88</a>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="our-location-address mb-40">
-                                        <h5>United States</h5>
-                                        <p>101 Broome St, 34D, New York</p>
-                                        <a class="mailto" href="/cdn-cgi/l/email-protection#35464045455a4741755258545c591b565a58"><span class="__cf_email__" data-cfemail="0c7f797c7c637e784c6b616d6560226f6361">[email�&nbsp;protected]</span></a><br>
-                                        <a class="callto" href="callto:+00012345688"><i class="fas fa-phone"></i> +000 (123) 456 88</a>
+                                        <p>Calle Las Carreras, 11, Ciudad Nueva, Santo Domingo, DR.</p>
+                                        <a class="mailto" href="mailto:hello@aw3a.com">hello@aw3a.com</a><br>
+                                        <a class="callto" href="callto:+00012345688"><i class="fas fa-phone"></i> +1 829 764 9570</a>
                                     </div>
                                 </div>
                             </div>
@@ -215,7 +207,8 @@
                                 <span class="sub-title mb-15">Get Free Quote</span>
                                 <h3>Drop Us a Message</h3>
                             </div>
-                            <form id="contactForm" class="contactForm" action="assets/php/form-process.php" name="contactForm" method="post">
+                            <form id="contactForm" class="contactForm" action="https://api.web3forms.com/submit" name="contactForm" method="post">
+                                <input type="hidden" name="access_key" value="455470c2-e0cd-4956-92e6-a0b7d60fe834">
                                 <div class="row gap-60 pt-15">
                                     <div class="col-md-12">
                                         <div class="form-group">
@@ -245,6 +238,7 @@
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
+                                    <input type="hidden" name="redirect" value="https://web3forms.com/success" />
                                     <div class="col-md-12">
                                         <div class="form-group pt-5 mb-0">
                                             <button type="submit" class="theme-btn style-two w-100">Send Message us <i class="far fa-arrow-right"></i></button>
